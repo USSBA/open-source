@@ -8,7 +8,7 @@
             "repositoryURL": "https://github.com/USSBA/hubzone-api",
             "description": "GeoSpatial API for the HUBZone program's HUBZone Map.",
             "permissions": {
-              "license": [{
+              "licenses": [{
                   "name": "Apache License 2.0",
                   "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
               }],
@@ -26,7 +26,7 @@
             "repositoryURL": "https://github.com/USSBA/hubzone-webmap",
             "description": "HUBZone Map, Rails Application for displaying the Map.",
             "permissions": {
-              "license": [{
+              "licenses": [{
                   "name": "Apache License 2.0",
                   "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
               }],
@@ -44,7 +44,7 @@
             "repositoryURL": "https://github.com/USSBA/hubzone-report",
             "description": "Rails App for HUBZone Report / PDF server.",
             "permissions": {
-              "license": null,
+              "licenses": null,
               "usageType": "exemptByAgencyMission",
               "exemptionText": "This code asset cannot be shared because of one of the following reasons: it contains sensitive information related to the agency's infrastructure,  it contains sensitive information related to the agency's operations, and/or a code assessment has not been completed."
             },
@@ -58,7 +58,7 @@
           "repositoryURL": "https://github.com/USSBA/aws-cft-tools",
           "description": "Command line tools to ease management of AWS infrastructure through CloudFormation",
           "permissions": {
-            "license": {
+            "licenses": {
               "name": "Apache v2",
               "URL": "https://www.apache.org/licenses/LICENSE-2.0"
             },
@@ -75,7 +75,7 @@
           "repositoryURL": "https://github.com/USSBA/oracle2sql",
           "description": "A standalone CFM code to move data from Oracle Database to SQL Server Database.",
           "permissions": {
-            "license": [{
+            "licenses": [{
                 "name": "Apache License 2.0",
                 "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
             }],
