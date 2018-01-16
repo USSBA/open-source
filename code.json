@@ -12,8 +12,7 @@
                   "name": "Apache License 2.0",
                   "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
               }],
-              "usageType": "openSource",
-              "exemptionText": null
+              "usageType": "openSource"
             },
             "laborHours": 9600,
             "tags": ["SBA", "Map", "Web", "Rails", "geopspatial"],
@@ -30,8 +29,7 @@
                   "name": "Apache License 2.0",
                   "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
               }],
-              "usageType": "openSource",
-              "exemptionText": null
+              "usageType": "openSource"
             },
             "laborHours": 9600,
             "tags": ["SBA", "Map", "Web", "Rails", "geospatial"],
@@ -62,8 +60,7 @@
               "name": "Apache v2",
               "URL": "https://www.apache.org/licenses/LICENSE-2.0"
             },
-            "usageType": "openSource",
-            "exemptionText": null
+            "usageType": "openSource"
           },
           "vcs": "git",
           "laborHours": 182,
@@ -79,8 +76,7 @@
                 "name": "Apache License 2.0",
                 "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
             }],
-            "usageType": "openSource",
-            "exemptionText": null
+            "usageType": "openSource"
           },
           "laborHours": 20,
           "tags": ["SBA"],
