@@ -37,6 +37,7 @@ Nice to Haves:
 
 Recommendations:
 1. A pre-release internal checklist is highly recommended procedure for development teams.
+2. [SPDX website][spdx] has a list of multiple open-source licenses and their abbreviations. 
 
 [gsa-checklist]: https://github.com/GSA/open-source-policy/blob/master/open_source_checklist.md
 [cfpb-checklist]: https://github.com/cfpb/open-source-checklist/blob/master/opensource-checklist.md
@@ -44,3 +45,4 @@ Recommendations:
 [poirot]: https://github.com/emanuelfeld/poirot
 [clouseau]: https://github.com/cfpb/clouseau
 [repo-cleaner]: https://rtyley.github.io/bfg-repo-cleaner/
+[spdx]: https://spdx.org/licenses/
