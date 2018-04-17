@@ -86,7 +86,7 @@
       },
       {
         "name": "Certify Design System Gem",
-        "repositoryURL": "https://github.com/USSBA/certify-design-system-gem",
+        "repositoryURL": "https://github.com/USSBA/certify_design_system_gem",
         "description": "Ruby Gem that delivers assets of the Certify Design System to Rails and Jekyll.",
         "permissions": {
           "licenses": [
