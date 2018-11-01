@@ -84,6 +84,22 @@
           "contact": { "email": "Andrew.Davy@sba.gov" }
       },
       {
+          "name": "LetsEncrypt Certificate Renewal",
+          "repositoryURL": "https://github.com/USSBA/sba-certificate-renewal",
+          "description": "This project offers a simple way to register and renew wildcard certificates with LetsEncrypt, and backup/restore the LetsEncrypt data with S3.",
+          "permissions": {
+            "licenses": [{
+                "name": "Apache License 2.0",
+                "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+            }],
+            "usageType": "openSource"
+          },
+          "vcs" : "git",
+          "laborHours": 80,
+          "tags": ["SBA", "SSL", "Certificate", "LetsEncrypt", "S3", "Docker", "DevOps", "AWS"],
+          "contact": { "email" : "Andrew.Davy@sba.gov" }
+      },
+      {
           "name": "OracletoSQL",
           "repositoryURL": "https://github.com/USSBA/oracle2sql",
           "description": "A standalone CFM code to move data from Oracle Database to SQL Server Database.",
