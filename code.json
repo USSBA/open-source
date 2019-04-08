@@ -146,6 +146,37 @@
         "laborHours": 0,
         "tags": ["SBA"],
         "contact": { "email": "Andrew.Davy@sba.gov" }
+      },
+      {
+        "name": "sba-gov-packer",
+        "repositoryURL": "https://github.com/USSBA/sba-gov-packer",
+        "description": "Promotes the ability to to automatically build AMIs using Packer and utilize the AWS CommandLine interface.",
+        "permissions": {
+          "licenses": [
+            {
+              "name": "MIT",
+              "URL": "http://www.opensource.org/licenses/MIT"
+            },
+            {
+              "name": "Creative Commons Attribution 4.0",
+              "URL": "http://creativecommons.org/licenses/by/4.0/legalcode"
+            },
+            {
+              "name": "Creative Commons Zero v1.0 Universal",
+              "URL": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+            },
+            {
+              "name": "SIL Open Font License 1.1",
+              "URL": "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
+            }
+          ],
+          "usageType": "openSource",
+          "exemptionText": null
+        },
+        "vcs": "git",
+        "laborHours": 0,
+        "tags": ["SBA"],
+        "contact": { "email": "Andrew.Davy@sba.gov" }
       }
     ]
 }
