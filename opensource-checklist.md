@@ -1,6 +1,6 @@
 # Checklist
 
-Based of GSA's open-source policy [checklist][gsa-checklist] and CFPB's [checklist][cfpb-checklist].
+Based of GSA's open-source policy [checklist][gsa-checklist] and CFPB's [checklist][cfpb-checklist].  Please note that many items on the checklist are for deployable software.  If your code is not intended to be deployed elsewhere, and you are open sourcing your code for other reasons, such as to meet transparency goals, then please use your best judgment on assessing whether that item on the checklist applies to your situation.
 
 ---
 ## Checklist for Opening Source Software
