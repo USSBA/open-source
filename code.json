@@ -148,6 +148,26 @@
         "contact": { "email": "Andrew.Davy@sba.gov" }
       },
       {
+        "name": "gov-delivery-node",
+        "version": "0.0.1",
+        "organization": "SBA Digital Services",
+        "description": "A Node.js client library for the GovDelivery API",
+        "permissions": {
+          "licenses": [{
+            "name": "CC0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }],
+          "usageType": "openSource"
+        },
+        "tags": ["SBA", "API", "GovDelivery", "SDK", "Node.js"],
+        "contact": {
+          "email" : "Andrew.Davy@sba.gov",
+          "name": "Andrew Davy"
+        },
+        "repositoryURL": "https://github.com/USSBA/gov-delivery-node",
+        "laborHours": 40
+      },
+      {
           "name": "SBA.gov Cypress UI Tests",
           "repositoryURL": "https://github.com/USSBA/sba-gov-integration-tests",
           "description": "A suite of SBA.gov UI tests in Cypress.io",
