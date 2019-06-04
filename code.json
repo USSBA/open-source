@@ -230,6 +230,22 @@
           "laborHours": 0,
           "tags": ["SBA", "AWS", "lambda", "cloudformation", "DevOps", "aws-cft"],
           "contact": { "email": "Andrew.Davy@sba.gov" }
+      },
+      {
+          "name": "SBA.gov CKAN",
+          "repositoryURL": "https://github.com/USSBA/sba-gov-ckan",
+          "description": "The Dockerfiles necessary to build Docker images for data.SBA.gov system.",
+          "permissions": {
+            "licenses": [{
+              "name": "Apache v2",
+              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }],
+            "usageType": "openSource"
+          },
+          "vcs": "git",
+          "laborHours": 80,
+          "tags": ["SBA", "Docker", "CKAN", "Solr", "DataPusher", "docker-compose", "AWS", "Synk"],
+          "contact": { "email": "Andrew.Davy@sba.gov" }
       }
     ]
 }
