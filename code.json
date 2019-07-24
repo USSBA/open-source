@@ -246,6 +246,22 @@
           "laborHours": 80,
           "tags": ["SBA", "Docker", "CKAN", "Solr", "DataPusher", "docker-compose", "AWS", "Synk"],
           "contact": { "email": "Andrew.Davy@sba.gov" }
+      },
+      {
+          "name": "Terraform AWS Module: Scheduled Lambda",
+          "repositoryURL": "https://github.com/USSBA/terraform-aws-scheduled-lambda",
+          "description": "A Terraform module to facilitate the creation of periodically executed Lambda Functions",
+          "permissions": {
+            "licenses": [{
+              "name": "Apache v2",
+              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }],
+            "usageType": "openSource"
+          },
+          "vcs": "git",
+          "laborHours": 16,
+          "tags": ["SBA", "Terraform", "AWS", "module", "Lambda", "CloudWatch", "cron"],
+          "contact": { "email": "Andrew.Davy@sba.gov" }
       }
     ]
 }
