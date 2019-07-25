@@ -20,13 +20,18 @@ Based of GSA's open-source policy [checklist][gsa-checklist] and CFPB's [checkli
     - [ ] Update or add the __License__
     - [ ] Include the (validated) __Code.JSON__ with the information for the project at the root of the repository.
     - [ ] Proper __documentation__ to use and access the project or API
-4. Additionally for  Developing in the Open
+4. Additionally for Developing in the Open
     - [ ] Add the __Contributing.md__ file
     - [ ] Add the __Security Policy__ file or section to the ReadMe file
     - [ ] Organize the ReadMe with consistent sections
     - [ ] Add the __Code of Conduct__ file or section to the ReadMe file
     - [ ] Optional but recommended, add a __Changelog.md__ file.
     - [ ] Automated Tools should run on every Pull Request.
+    - [ ] Configure GitHub Protected Branches on `master`:
+      - [ ] Require Pull Request before merge
+      - [ ] Require CI tests to pass before merge
+      - [ ] Include administrators/owners in these requirements
+      - [ ] Optional: Require at least 1 other Pull Request approval
 5. Verify that Components or 3rd party libraries that the Project uses that have different licenses or are not open source, are properly scoped and isolated to allow the OSS code to be open.
 6. Notify the Open Source Point of Contact for the Agency
 
@@ -37,7 +42,7 @@ Nice to Haves:
 
 Recommendations:
 1. A pre-release internal checklist is highly recommended procedure for development teams.
-2. [SPDX website][spdx] has a list of multiple open-source licenses and their abbreviations. 
+2. [SPDX website][spdx] has a list of multiple open-source licenses and their abbreviations.
 
 [gsa-checklist]: https://github.com/GSA/open-source-policy/blob/master/open_source_checklist.md
 [cfpb-checklist]: https://github.com/cfpb/open-source-checklist/blob/master/opensource-checklist.md
