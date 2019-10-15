@@ -278,6 +278,22 @@
         "laborHours": 16,
         "tags": ["SBA", "Terraform", "AWS", "module", "Inspector", "security", "CloudWatch", "cron"],
         "contact": { "email": "Andrew.Davy@sba.gov" }
+      },
+      {
+        "name": "Terraform AWS Module: AWS SNS Framework",
+        "repositoryURL": "https://github.com/USSBA/terraform-aws-sns-notification-framework",
+        "description": "A Terraform module to provide a consistent SNS and Slack/Teams Notification framework across SBA Terraform projects",
+        "permissions": {
+          "licenses": [{
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }],
+          "usageType": "openSource"
+        },
+        "vcs": "git",
+        "laborHours": 16,
+        "tags": ["SBA", "Terraform", "AWS", "module", "sns", "slack", "lambda"],
+        "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
 }
