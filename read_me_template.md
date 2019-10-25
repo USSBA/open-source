@@ -32,7 +32,7 @@
 A copy of that license is distributed with this software.
 ```
 
-```
+```markdown
 ## Maintainers
 Created in 1953, the U.S. Small Business Administration (SBA) continues to help small business owners and entrepreneurs pursue the American dream. The SBA is the only cabinet-level federal agency fully dedicated to small business and provides counseling, capital, and contracting expertise as the nation’s only go-to resource and voice for small businesses.
 
