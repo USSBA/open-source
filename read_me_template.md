@@ -18,6 +18,7 @@
     - ChangeLog
 3. Repositories that have been approved to be open-source must contain these additional sections:
     - License
+    - Maintainers
     - Contributing
     - Security Issues
     - Code of Conduct
@@ -29,6 +30,13 @@
 
 {{repo}} is licensed under the Apache License v2.0.
 A copy of that license is distributed with this software.
+```
+
+```markdown
+## Maintainers
+Created in 1953, the U.S. Small Business Administration (SBA) continues to help small business owners and entrepreneurs pursue the American dream. The SBA is the only cabinet-level federal agency fully dedicated to small business and provides counseling, capital, and contracting expertise as the nation’s only go-to resource and voice for small businesses.
+
+By making source code available for sharing and re-use across Federal agencies, we can avoid duplicative custom software purchases and promote innovation and collaboration across Federal agencies. By opening more of our code to the brightest minds inside and outside of government, we can enable them to work together to ensure that the code is reliable and effective in furthering our national objectives. And we can do all of this while remaining consistent with the Federal Government’s long-standing policy of technology neutrality, through which we seek to ensure that Federal investments in IT are merit-based, improve the performance of our government, and create value for the American people.
 ```
 
 ```markdown
