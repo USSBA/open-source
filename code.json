@@ -294,6 +294,22 @@
         "laborHours": 16,
         "tags": ["SBA", "Terraform", "AWS", "module", "sns", "slack", "lambda"],
         "contact": { "email": "Andrew.Davy@sba.gov" }
+    },
+    {
+        "name": "Terraform AWS Module: AWS Backup Plans",
+        "repositoryURL": "https://github.com/USSBA/terraform-aws-backup-plans",
+        "description": "A Terraform module to provide consistancy across AWS accounts on how data resources are backed up.",
+        "permissions": {
+          "licenses": [{
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }],
+          "usageType": "openSource"
+        },
+        "vcs": "git",
+        "laborHours": 8,
+        "tags": ["SBA", "Terraform", "AWS", "module", "backup"],
+        "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
 }
