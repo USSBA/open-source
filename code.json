@@ -278,6 +278,22 @@
         "laborHours": 16,
         "tags": ["SBA", "Terraform", "AWS", "module", "Inspector", "security", "CloudWatch", "cron"],
         "contact": { "email": "Andrew.Davy@sba.gov" }
+    },
+    {
+      "name": "Terraform AWS Module: AWS Bootstrapper",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-bootstrapper",
+      "description": "A Terraform module to facilitate the bootstrapping of a terraform remote state in AWS",
+      "permissions": {
+        "licenses": [{
+          "name": "CC0 1.0",
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 16,
+      "tags": ["SBA", "Terraform", "AWS", "module", "bootstrap", "remote state", "S3"],
+      "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
 }
