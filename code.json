@@ -340,7 +340,23 @@
       },
       "vcs": "git",
       "laborHours": 40,
-      "tags": ["SBA", "Terraform", "AWS", "module", "WAF", "Kinesis", "S3", "OWASP"],
+      "tags": ["SBA", "Terraform", "AWS", "module", "WAF", "Kinesis", "S3", "OWASP", "CloudFront"],
+      "contact": { "email": "Andrew.Davy@sba.gov" }
+    },
+    {
+      "name": "Terraform AWS Module: WAF Regional OWASP Top 10",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-waf-regional",
+      "description": "A Terraform Module to simply the OWASP top 10 rules with easy to configure variables.",
+      "permissions": {
+        "licenses": [{
+          "name": "CC0 1.0",
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 40,
+      "tags": ["SBA", "Terraform", "AWS", "module", "WAF", "Kinesis", "S3", "OWASP", "ELB"],
       "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
