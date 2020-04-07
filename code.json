@@ -358,6 +358,22 @@
       "laborHours": 40,
       "tags": ["SBA", "Terraform", "AWS", "module", "WAF", "Kinesis", "S3", "OWASP", "ELB"],
       "contact": { "email": "Andrew.Davy@sba.gov" }
+    },
+    {
+      "name": "Terraform AWS Module: CloudFront",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-cloudfront",
+      "description": "A Terraform Module to make provisioning CloudFront deployments easier.",
+      "permissions": {
+        "licenses": [{
+          "name": "CC0 1.0",
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 4,
+      "tags": ["SBA", "Terraform", "AWS", "module", "CloudFront"],
+      "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
 }
