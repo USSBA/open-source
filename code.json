@@ -374,6 +374,22 @@
       "laborHours": 4,
       "tags": ["SBA", "Terraform", "AWS", "module", "CloudFront"],
       "contact": { "email": "Andrew.Davy@sba.gov" }
+    },
+    {
+      "name": "Terraform AWS Module: Cstate Healthchecker",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-cstate-healthchecker",
+      "description": "A Terraform Module to make it easier to onboard project/endpoints into cstate.",
+      "permissions": {
+        "licenses": [{
+          "name": "CC0 1.0",
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 16,
+      "tags": ["SBA", "Terraform", "AWS", "module", "CSTATE", "Route53", "Healthcheck"],
+      "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
 }
