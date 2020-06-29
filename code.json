@@ -390,6 +390,22 @@
       "laborHours": 16,
       "tags": ["SBA", "Terraform", "AWS", "module", "CSTATE", "Route53", "Healthcheck"],
       "contact": { "email": "Andrew.Davy@sba.gov" }
+    },
+    {
+      "name": "Terraform AWS Module: Apex Redirect",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-apex-redirect",
+      "description": "A Terraform Module to configure a serverless apex redirect service.",
+      "permissions": {
+        "licenses": [{
+          "name": "CC0 1.0",
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 40,
+      "tags": ["SBA", "Terraform", "AWS", "module", "apex", "Route53", "fargate", "certificate", "ecs", "serverless", "nlb"],
+      "contact": { "email": "Andrew.Davy@sba.gov" }
     }
     ]
 }
