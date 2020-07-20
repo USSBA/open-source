@@ -1,411 +1,699 @@
 {
-    "version": "2.0.0",
-    "measurementType": { "method": "projects"},
-    "agency": "SBA",
-    "releases": [
-        {
-            "name": "HUBZone Map API",
-            "repositoryURL": "https://github.com/USSBA/hubzone-api",
-            "description": "GeoSpatial API for the HUBZone program's HUBZone Map.",
-            "permissions": {
-              "licenses": [{
-                  "name": "Apache License 2.0",
-                  "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
-              }],
-              "usageType": "openSource"
-            },
-            "laborHours": 9600,
-            "tags": ["SBA", "Map", "Web", "Rails", "geopspatial"],
-            "contact": { "email" : "Andrew.Davy@sba.gov" },
-            "vcs" : "git",
-            "homepageURl": "https://maps.certify.sba.gov"
-        },
-       {
-            "name": "HUBZone Map",
-            "repositoryURL": "https://github.com/USSBA/hubzone-webmap",
-            "description": "HUBZone Map, Rails Application for displaying the Map.",
-            "permissions": {
-              "licenses": [{
-                  "name": "Apache License 2.0",
-                  "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
-              }],
-              "usageType": "openSource"
-            },
-            "laborHours": 9600,
-            "tags": ["SBA", "Map", "Web", "Rails", "geospatial"],
-            "contact": { "email" : "Andrew.Davy@sba.gov" },
-            "vcs" : "git",
-            "homepageURl": "https://maps.certify.sba.gov"
-        },
-        {
-            "name": "HUBZone Report",
-            "repositoryURL": "https://github.com/USSBA/hubzone-report",
-            "description": "Rails App for HUBZone Report / PDF server.",
-            "permissions": {
-              "licenses": null,
-              "usageType": "exemptByAgencyMission",
-              "exemptionText": "This code asset cannot be shared because of one of the following reasons: it contains sensitive information related to the agency's infrastructure,  it contains sensitive information related to the agency's operations, and/or a code assessment has not been completed."
-            },
-            "laborHours": 4800,
-            "tags": ["SBA", "Rails", "PDF", "PrawnPDF"],
-            "contact": { "email" : "Andrew.Davy@sba.gov" },
-            "vcs" : "git"
-        },
-        {
-          "name": "AWS-CFT-tools",
-          "repositoryURL": "https://github.com/USSBA/aws-cft-tools",
-          "description": "Command line tools to ease management of AWS infrastructure through CloudFormation",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 182,
-          "tags": ["SBA", "DevOps", "AWS"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
+  "version": "2.0.0",
+  "measurementType": {
+    "method": "projects"
+  },
+  "agency": "SBA",
+  "releases": [
+    {
+      "name": "HUBZone Map API",
+      "repositoryURL": "https://github.com/USSBA/hubzone-api",
+      "description": "GeoSpatial API for the HUBZone program's HUBZone Map.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache License 2.0",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        ],
+        "usageType": "openSource"
       },
-      {
-          "name": "Small Business Voice User Interface",
-          "repositoryURL": "https://github.com/USSBA/sba-gov-vui",
-          "description": "Voice user interface prototype using SBA's Small Business Size Standards API",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 0,
-          "tags": ["SBA", "Serverless"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
+      "laborHours": 9600,
+      "tags": [
+        "SBA",
+        "Map",
+        "Web",
+        "Rails",
+        "geopspatial"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
       },
-      {
-          "name": "LetsEncrypt Certificate Renewal",
-          "repositoryURL": "https://github.com/USSBA/sba-certificate-renewal",
-          "description": "This project offers a simple way to register and renew wildcard certificates with LetsEncrypt, and backup/restore the LetsEncrypt data with S3.",
-          "permissions": {
-            "licenses": [{
-                "name": "Apache License 2.0",
-                "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs" : "git",
-          "laborHours": 80,
-          "tags": ["SBA", "SSL", "Certificate", "LetsEncrypt", "S3", "Docker", "DevOps", "AWS"],
-          "contact": { "email" : "Andrew.Davy@sba.gov" }
-      },
-      {
-          "name": "OracletoSQL",
-          "repositoryURL": "https://github.com/USSBA/oracle2sql",
-          "description": "A standalone CFM code to move data from Oracle Database to SQL Server Database.",
-          "permissions": {
-            "licenses": [{
-                "name": "Apache License 2.0",
-                "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
-            }],
-            "usageType": "openSource"
-          },
-          "laborHours": 20,
-          "tags": ["SBA"],
-          "contact": { "email" : "Andrew.Davy@sba.gov" },
-          "vcs" : "git",
-          "homepageURl": "https://github.com/USSBA/oracle2sql"
-      },
-      {
-        "name": "Certify Design System Gem",
-        "repositoryURL": "https://github.com/USSBA/certify_design_system_gem",
-        "description": "Ruby Gem that delivers assets of the Certify Design System to Rails and Jekyll.",
-        "permissions": {
-          "licenses": [
-            {
-              "name": "MIT",
-              "URL": "http://www.opensource.org/licenses/MIT"
-            },
-            {
-              "name": "Creative Commons Attribution 4.0",
-              "URL": "http://creativecommons.org/licenses/by/4.0/legalcode"
-            },
-            {
-              "name": "Creative Commons Zero v1.0 Universal",
-              "URL": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
-            },
-            {
-              "name": "SIL Open Font License 1.1",
-              "URL": "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
-            }
-          ],
-          "usageType": "openSource",
-          "exemptionText": null
-        },
-        "vcs": "git",
-        "laborHours": 0,
-        "tags": ["SBA"],
-        "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-        "name": "gov-delivery-node",
-        "version": "0.0.1",
-        "organization": "SBA Digital Services",
-        "description": "A Node.js client library for the GovDelivery API",
-        "permissions": {
-          "licenses": [{
-            "name": "CC0",
-            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-          }],
-          "usageType": "openSource"
-        },
-        "tags": ["SBA", "API", "GovDelivery", "SDK", "Node.js"],
-        "contact": {
-          "email" : "Andrew.Davy@sba.gov",
-          "name": "Andrew Davy"
-        },
-        "repositoryURL": "https://github.com/USSBA/gov-delivery-node",
-        "laborHours": 40
-      },
-      {
-          "name": "SBA.gov Cypress UI Tests",
-          "repositoryURL": "https://github.com/USSBA/sba-gov-integration-tests",
-          "description": "A suite of SBA.gov UI tests in Cypress.io",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 0,
-          "tags": ["SBA", "testing", "automated testing", "nodejs", "DevOps", "Cypress"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-          "name": "SBA.gov Content API",
-          "repositoryURL": "https://github.com/USSBA/sba-gov-content-api",
-          "description": "An api to provide searchable access to the SBA.gov content",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 0,
-          "tags": ["SBA", "AWS", "lambda", "nodejs", "DevOps"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-          "name": "SBA.gov UI (Katana)",
-          "repositoryURL": "https://github.com/USSBA/sba-gov-katana",
-          "description": "The presentation logic for the SBA.gov website",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 0,
-          "tags": ["SBA", "AWS", "lambda", "nodejs", "DevOps"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-          "name": "SBA.gov Infrastructure",
-          "repositoryURL": "https://github.com/USSBA/sba-gov-infrastructure",
-          "description": "The Infrastructure-as-Code representation of the SBA.gov system",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 0,
-          "tags": ["SBA", "AWS", "lambda", "cloudformation", "DevOps", "aws-cft"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-          "name": "SBA.gov CKAN",
-          "repositoryURL": "https://github.com/USSBA/sba-gov-ckan",
-          "description": "The Dockerfiles necessary to build Docker images for data.SBA.gov system.",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 80,
-          "tags": ["SBA", "Docker", "CKAN", "Solr", "DataPusher", "docker-compose", "AWS", "Synk"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-          "name": "Terraform AWS Module: Scheduled Lambda",
-          "repositoryURL": "https://github.com/USSBA/terraform-aws-scheduled-lambda",
-          "description": "A Terraform module to facilitate the creation of periodically executed Lambda Functions",
-          "permissions": {
-            "licenses": [{
-              "name": "Apache v2",
-              "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            }],
-            "usageType": "openSource"
-          },
-          "vcs": "git",
-          "laborHours": 16,
-          "tags": ["SBA", "Terraform", "AWS", "module", "Lambda", "CloudWatch", "cron"],
-          "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-        "name": "Terraform AWS Module: AWS Inspector",
-        "repositoryURL": "https://github.com/USSBA/terraform-aws-inspector",
-        "description": "A Terraform module to facilitate the implementation of Amazon Inspector",
-        "permissions": {
-          "licenses": [{
-            "name": "CC0 1.0",
-            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-          }],
-          "usageType": "openSource"
-        },
-        "vcs": "git",
-        "laborHours": 16,
-        "tags": ["SBA", "Terraform", "AWS", "module", "Inspector", "security", "CloudWatch", "cron"],
-        "contact": { "email": "Andrew.Davy@sba.gov" }
-      },
-      {
-        "name": "Terraform AWS Module: AWS SNS Framework",
-        "repositoryURL": "https://github.com/USSBA/terraform-aws-sns-notification-framework",
-        "description": "A Terraform module to provide a consistent SNS and Slack/Teams Notification framework across SBA Terraform projects",
-        "permissions": {
-          "licenses": [{
-            "name": "CC0 1.0",
-            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-          }],
-          "usageType": "openSource"
-        },
-        "vcs": "git",
-        "laborHours": 16,
-        "tags": ["SBA", "Terraform", "AWS", "module", "sns", "slack", "lambda"],
-        "contact": { "email": "Andrew.Davy@sba.gov" }
+      "vcs": "git",
+      "homepageURl": "https://maps.certify.sba.gov"
     },
     {
-        "name": "Terraform AWS Module: AWS Backup Plans",
-        "repositoryURL": "https://github.com/USSBA/terraform-aws-backup-plans",
-        "description": "A Terraform module to provide consistancy across AWS accounts on how data resources are backed up.",
-        "permissions": {
-          "licenses": [{
+      "name": "HUBZone Map",
+      "repositoryURL": "https://github.com/USSBA/hubzone-webmap",
+      "description": "HUBZone Map, Rails Application for displaying the Map.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache License 2.0",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 9600,
+      "tags": [
+        "SBA",
+        "Map",
+        "Web",
+        "Rails",
+        "geospatial"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      },
+      "vcs": "git",
+      "homepageURl": "https://maps.certify.sba.gov"
+    },
+    {
+      "name": "HUBZone Report",
+      "repositoryURL": "https://github.com/USSBA/hubzone-report",
+      "description": "Rails App for HUBZone Report / PDF server.",
+      "permissions": {
+        "licenses": null,
+        "usageType": "exemptByAgencyMission",
+        "exemptionText": "This code asset cannot be shared because of one of the following reasons: it contains sensitive information related to the agency's infrastructure,  it contains sensitive information related to the agency's operations, and/or a code assessment has not been completed."
+      },
+      "laborHours": 4800,
+      "tags": [
+        "SBA",
+        "Rails",
+        "PDF",
+        "PrawnPDF"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      },
+      "vcs": "git"
+    },
+    {
+      "name": "AWS-CFT-tools",
+      "repositoryURL": "https://github.com/USSBA/aws-cft-tools",
+      "description": "Command line tools to ease management of AWS infrastructure through CloudFormation",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 182,
+      "tags": [
+        "SBA",
+        "DevOps",
+        "AWS"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Small Business Voice User Interface",
+      "repositoryURL": "https://github.com/USSBA/sba-gov-vui",
+      "description": "Voice user interface prototype using SBA's Small Business Size Standards API",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "SBA",
+        "Serverless"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "LetsEncrypt Certificate Renewal",
+      "repositoryURL": "https://github.com/USSBA/sba-certificate-renewal",
+      "description": "This project offers a simple way to register and renew wildcard certificates with LetsEncrypt, and backup/restore the LetsEncrypt data with S3.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache License 2.0",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 80,
+      "tags": [
+        "SBA",
+        "SSL",
+        "Certificate",
+        "LetsEncrypt",
+        "S3",
+        "Docker",
+        "DevOps",
+        "AWS"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "OracletoSQL",
+      "repositoryURL": "https://github.com/USSBA/oracle2sql",
+      "description": "A standalone CFM code to move data from Oracle Database to SQL Server Database.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache License 2.0",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "laborHours": 20,
+      "tags": [
+        "SBA"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      },
+      "vcs": "git",
+      "homepageURl": "https://github.com/USSBA/oracle2sql"
+    },
+    {
+      "name": "Certify Design System Gem",
+      "repositoryURL": "https://github.com/USSBA/certify_design_system_gem",
+      "description": "Ruby Gem that delivers assets of the Certify Design System to Rails and Jekyll.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "MIT",
+            "URL": "http://www.opensource.org/licenses/MIT"
+          },
+          {
+            "name": "Creative Commons Attribution 4.0",
+            "URL": "http://creativecommons.org/licenses/by/4.0/legalcode"
+          },
+          {
+            "name": "Creative Commons Zero v1.0 Universal",
+            "URL": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+          },
+          {
+            "name": "SIL Open Font License 1.1",
+            "URL": "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
+          }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "SBA"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "gov-delivery-node",
+      "version": "0.0.1",
+      "organization": "SBA Digital Services",
+      "description": "A Node.js client library for the GovDelivery API",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "tags": [
+        "SBA",
+        "API",
+        "GovDelivery",
+        "SDK",
+        "Node.js"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov",
+        "name": "Andrew Davy"
+      },
+      "repositoryURL": "https://github.com/USSBA/gov-delivery-node",
+      "laborHours": 40
+    },
+    {
+      "name": "SBA.gov Cypress UI Tests",
+      "repositoryURL": "https://github.com/USSBA/sba-gov-integration-tests",
+      "description": "A suite of SBA.gov UI tests in Cypress.io",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "SBA",
+        "testing",
+        "automated testing",
+        "nodejs",
+        "DevOps",
+        "Cypress"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "SBA.gov Content API",
+      "repositoryURL": "https://github.com/USSBA/sba-gov-content-api",
+      "description": "An api to provide searchable access to the SBA.gov content",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "SBA",
+        "AWS",
+        "lambda",
+        "nodejs",
+        "DevOps"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "SBA.gov UI (Katana)",
+      "repositoryURL": "https://github.com/USSBA/sba-gov-katana",
+      "description": "The presentation logic for the SBA.gov website",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "SBA",
+        "AWS",
+        "lambda",
+        "nodejs",
+        "DevOps"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "SBA.gov Infrastructure",
+      "repositoryURL": "https://github.com/USSBA/sba-gov-infrastructure",
+      "description": "The Infrastructure-as-Code representation of the SBA.gov system",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "SBA",
+        "AWS",
+        "lambda",
+        "cloudformation",
+        "DevOps",
+        "aws-cft"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "SBA.gov CKAN",
+      "repositoryURL": "https://github.com/USSBA/sba-gov-ckan",
+      "description": "The Dockerfiles necessary to build Docker images for data.SBA.gov system.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 80,
+      "tags": [
+        "SBA",
+        "Docker",
+        "CKAN",
+        "Solr",
+        "DataPusher",
+        "docker-compose",
+        "AWS",
+        "Synk"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Terraform AWS Module: Scheduled Lambda",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-scheduled-lambda",
+      "description": "A Terraform module to facilitate the creation of periodically executed Lambda Functions",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Apache v2",
+            "URL": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 16,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "Lambda",
+        "CloudWatch",
+        "cron"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Terraform AWS Module: AWS Inspector",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-inspector",
+      "description": "A Terraform module to facilitate the implementation of Amazon Inspector",
+      "permissions": {
+        "licenses": [
+          {
             "name": "CC0 1.0",
             "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-          }],
-          "usageType": "openSource"
-        },
-        "vcs": "git",
-        "laborHours": 8,
-        "tags": ["SBA", "Terraform", "AWS", "module", "backup"],
-        "contact": { "email": "Andrew.Davy@sba.gov" }
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 16,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "Inspector",
+        "security",
+        "CloudWatch",
+        "cron"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Terraform AWS Module: AWS SNS Framework",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-sns-notification-framework",
+      "description": "A Terraform module to provide a consistent SNS and Slack/Teams Notification framework across SBA Terraform projects",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 16,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "sns",
+        "slack",
+        "lambda"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Terraform AWS Module: AWS Backup Plans",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-backup-plans",
+      "description": "A Terraform module to provide consistancy across AWS accounts on how data resources are backed up.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 8,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "backup"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     },
     {
       "name": "Terraform AWS Module: AWS Bootstrapper",
       "repositoryURL": "https://github.com/USSBA/terraform-aws-bootstrapper",
       "description": "A Terraform module to facilitate the bootstrapping of a terraform remote state in AWS",
       "permissions": {
-        "licenses": [{
-          "name": "CC0 1.0",
-          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }],
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
         "usageType": "openSource"
       },
       "vcs": "git",
       "laborHours": 16,
-      "tags": ["SBA", "Terraform", "AWS", "module", "bootstrap", "remote state", "S3"],
-      "contact": { "email": "Andrew.Davy@sba.gov" }
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "bootstrap",
+        "remote state",
+        "S3"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     },
     {
       "name": "Terraform AWS Module: WAF Global OWASP Top 10",
       "repositoryURL": "https://github.com/USSBA/terraform-aws-waf-global",
       "description": "A Terraform Module to simply the OWASP top 10 rules with easy to configure variables.",
       "permissions": {
-        "licenses": [{
-          "name": "CC0 1.0",
-          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }],
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
         "usageType": "openSource"
       },
       "vcs": "git",
       "laborHours": 40,
-      "tags": ["SBA", "Terraform", "AWS", "module", "WAF", "Kinesis", "S3", "OWASP", "CloudFront"],
-      "contact": { "email": "Andrew.Davy@sba.gov" }
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "WAF",
+        "Kinesis",
+        "S3",
+        "OWASP",
+        "CloudFront"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     },
     {
       "name": "Terraform AWS Module: WAF Regional OWASP Top 10",
       "repositoryURL": "https://github.com/USSBA/terraform-aws-waf-regional",
       "description": "A Terraform Module to simply the OWASP top 10 rules with easy to configure variables.",
       "permissions": {
-        "licenses": [{
-          "name": "CC0 1.0",
-          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }],
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
         "usageType": "openSource"
       },
       "vcs": "git",
       "laborHours": 40,
-      "tags": ["SBA", "Terraform", "AWS", "module", "WAF", "Kinesis", "S3", "OWASP", "ELB"],
-      "contact": { "email": "Andrew.Davy@sba.gov" }
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "WAF",
+        "Kinesis",
+        "S3",
+        "OWASP",
+        "ELB"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     },
     {
       "name": "Terraform AWS Module: CloudFront",
       "repositoryURL": "https://github.com/USSBA/terraform-aws-cloudfront",
       "description": "A Terraform Module to make provisioning CloudFront deployments easier.",
       "permissions": {
-        "licenses": [{
-          "name": "CC0 1.0",
-          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }],
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
         "usageType": "openSource"
       },
       "vcs": "git",
       "laborHours": 4,
-      "tags": ["SBA", "Terraform", "AWS", "module", "CloudFront"],
-      "contact": { "email": "Andrew.Davy@sba.gov" }
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "CloudFront"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     },
     {
       "name": "Terraform AWS Module: Cstate Healthchecker",
       "repositoryURL": "https://github.com/USSBA/terraform-aws-cstate-healthchecker",
       "description": "A Terraform Module to make it easier to onboard project/endpoints into cstate.",
       "permissions": {
-        "licenses": [{
-          "name": "CC0 1.0",
-          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }],
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
         "usageType": "openSource"
       },
       "vcs": "git",
       "laborHours": 16,
-      "tags": ["SBA", "Terraform", "AWS", "module", "CSTATE", "Route53", "Healthcheck"],
-      "contact": { "email": "Andrew.Davy@sba.gov" }
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "CSTATE",
+        "Route53",
+        "Healthcheck"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     },
     {
       "name": "Terraform AWS Module: Apex Redirect",
       "repositoryURL": "https://github.com/USSBA/terraform-aws-apex-redirect",
       "description": "A Terraform Module to configure a serverless apex redirect service.",
       "permissions": {
-        "licenses": [{
-          "name": "CC0 1.0",
-          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }],
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
         "usageType": "openSource"
       },
       "vcs": "git",
       "laborHours": 40,
-      "tags": ["SBA", "Terraform", "AWS", "module", "apex", "Route53", "fargate", "certificate", "ecs", "serverless", "nlb"],
-      "contact": { "email": "Andrew.Davy@sba.gov" }
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "apex",
+        "Route53",
+        "fargate",
+        "certificate",
+        "ecs",
+        "serverless",
+        "nlb"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Terraform AWS Module: Letsencrypt Certificate Renewal",
+      "repositoryURL": "https://github.com/USSBA/terraform-aws-letsencrypt",
+      "description": "A terraform module to issue and maintain Let's Encrypt certificates.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 60,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "letsencrypt",
+        "fargate",
+        "certificate",
+        "ssl",
+        "tls",
+        "ecs",
+        "serverless",
+        "docker"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     }
-    ]
+  ]
 }
