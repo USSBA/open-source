@@ -760,6 +760,66 @@
       "contact": {
         "email": "Andrew.Davy@sba.gov"
       }
+    },
+    {
+      "name": "Terraform AWS Module: Static Website",
+      "repositoryURL": "https://github.com/ussba/terraform-aws-static-website",
+      "description": "A terraform module to create AWS resources needed for a 'simple' static website.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 40,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "module",
+        "s3",
+        "cloudfront",
+        "static",
+        "simple",
+        "serverless"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
+    },
+    {
+      "name": "Reference Architecture",
+      "repositoryURL": "https://github.com/USSBA/reference-architecture",
+      "description": "A collection of solutions for common application processes",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0 1.0",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource"
+      },
+      "vcs": "git",
+      "laborHours": 80,
+      "tags": [
+        "SBA",
+        "Terraform",
+        "AWS",
+        "serverless",
+        "s3",
+        "vpc",
+        "static",
+        "node.js",
+        "dynamodb"
+      ],
+      "contact": {
+        "email": "Andrew.Davy@sba.gov"
+      }
     }
   ]
 }
